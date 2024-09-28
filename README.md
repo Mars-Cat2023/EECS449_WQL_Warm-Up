@@ -10,4 +10,14 @@
    -> **See the file "Submission_Part1_response.png"**
 
 ## Qilong's Submission Part2:
-+ **See the folder "Submission_Part2_Ollama-bio-test"**
++ Add some custom documents of your own to the `docs` directory and test the chatbot with these documents. Share a screenshot of the chatbot response to a user query based on the custom documents.  
+   -> **See the two folders "docs" and "docs2"**
++ Use 2 different LLMs (of your choosing) to generate responses to user queries. Share a screenshot of the chatbot response to a user query using each LLM.
++ Share the code for the `server.jac` file that includes the RAG module and the MTLLM model where you use the 2 different LLMs. You can submit one file with the code for both LLMs.   
+   -> **llama3.1's performance on Biochemistry Tests: see the folder "Submission_Part2_Ollama-bio-test"**  
+   -> Originally, server llama3.1 is in the file **"server-ollama.jac"**  
+   -> Another 2 LLMs I chose are:  
+  &emsp; &emsp; &emsp;      qwen:0.5b:  &emsp; &emsp; &emsp; **See the file "server-qwen_0-5b.jac"**  
+  &emsp; &emsp; &emsp; deepseek-coder:  &emsp; **See the file "server-deepseek-coder.jac"**  
+  &emsp;   **Their results are collected in the folder "Submission_Part2_Different_LLMs"**
+
