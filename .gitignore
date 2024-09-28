@@ -1,0 +1,23 @@
+# Ignore WiredTiger database engine files
+WiredTiger
+WiredTiger.lock
+WiredTiger.turtle
+WiredTiger.wt
+WiredTigerHS.wt
+
+# Ignore MongoDB collections and indexes
+collection-*.wt
+index-*.wt
+
+# Ignore MongoDB specific files
+_mdb_catalog.wt
+diagnostic.data/
+docs/
+journal/
+mongod.lock
+sizeStorer.wt
+storage.bson
+
+# Ignore generated directories and files
+__jac_gen__/
+chroma/
