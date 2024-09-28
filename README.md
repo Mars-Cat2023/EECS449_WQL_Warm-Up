@@ -21,3 +21,18 @@
   &emsp; &emsp; &emsp; deepseek-coder:  &emsp; **See the file "server-deepseek-coder.jac"**  
   &emsp;   **Their results are collected in the folder "Submission_Part2_Different_LLMs"**
 
+
+
+## Summary - Common GitHub Commands:
+   **For only one developer**: 
+   ```
+   git status
+   git add .
+   git commit -m "Warm-Up Submission (Part 2) FINISHED!"
+   git restore --staged .
+   ```
+   ```
+   git fetch origin
+   git merge origin/main
+   git push origin main
+   ```
