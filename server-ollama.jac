@@ -1,5 +1,7 @@
 import:py from mtllm.llms {Ollama}
 
+# https://ollama.com/library/llama3.1
+# ollama run llama3.1
 glob llm = Ollama(model_name='llama3.1');
 
 import:jac from rag {RagEngine}
