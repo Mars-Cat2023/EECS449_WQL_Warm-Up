@@ -23,6 +23,40 @@
 *( Btw, failed attempt: Hugging Faces' Models are not supported by our Jac language, but still keep the failed files "server_select_1.py" and "server-select-1.jac" )*
 
 
+## Qilong's Submission Part3:
++ Add a new custom state of your own to the `ChatType` enum. Explain what the state represents and how it can be used in the chatbot.  
+   -> **FEEDBACK : 'Feedback provided by the users on the responses from the chatbot. This will make interaction between humans and chatbots more customized to individual needs by the update circles of feedbacks.'**
++ Add your own custom `chat` node to the graph and define its abilities.  
++ Add your custom state to the routing capabilities of the chatbot. Explain how the chatbot will route the user query to your custom chat model based on the classification.  
+   -> "Keyword Triggered": ```message.contains("feedback")```
++ Share a screenshot of a conversation with your chatbot showing you custom dialogue routing in action.  
+   -> **See the folder "Submission_Part3_New_ChatType"**
++ Share the code for your server.jac file with the updated graph.  
+   -> **See the file "server-ollama-Part3.jac"**
+
+## Qilong's Extra Credit:
+   [Qilong's Extra Credit PR #1318: 3 Bugs of Jaseci](https://github.com/Jaseci-Labs/jaseci/pull/1318)  
+   3 Issues:  
+
++ **[Issue 1]: Avoid to add duplicate chunks by checking chunk_hash_content:**  
+Currently, in our tutorial, we have some bug when we remove duplicate chunks, we only compare chunk_ID before adding them into our database store.
+This doesn't seem correct or functional, because we always starting from page_id=0, index_id=0.
+I suggest that we compare the content by using hash() function instead of just compare the page_id and index_id.  
+*BTW, I am not quite familiar with our Jac syntax, so feel free to correct my code.*
+
++ **\[Issue 2\]: TYPO:**  
+In the spec of [Part 3](https://www.jac-lang.org//learn/tutorial/3_rag-dialogue-routing-chatbot/):  
+"We update our interact walker to include the new init_router ability, which initializes the router node and routes the user query to the appropriate model."
+should be changed into:
+"We add the new infer walker to include the new init_router ability, which initializes the router node and routes the user query to the appropriate model."
+
++ **[Issue 3]: Lack of Syntax Hint:**  
+In the spec of [Part 3](https://www.jac-lang.org//learn/tutorial/3_rag-dialogue-routing-chatbot/):  
+I suggest that we add one more hint like
+In Jac-Lang, **the order of declaration and definition matters**. If you encountered an issue like "Session.__init__() got an unexpected keyword argument 'id'", please wisely order the nodes and walkers, especially careful when you deal with the mutual reference between node Session and walker interact. This property is similar to the syntax of C++ language.
+  
+  
+  
 ## Summary - Common GitHub Commands:
    **For only one developer**: 
    ```
