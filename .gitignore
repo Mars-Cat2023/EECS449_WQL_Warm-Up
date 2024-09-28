@@ -12,7 +12,6 @@ index-*.wt
 # Ignore MongoDB specific files
 _mdb_catalog.wt
 diagnostic.data/
-docs/
 journal/
 mongod.lock
 sizeStorer.wt
