@@ -19,8 +19,8 @@
    -> Another 2 LLMs I chose are:  
   &emsp; &emsp; &emsp;      qwen:0.5b:  &emsp; &emsp; &emsp; **See the file "server-qwen_0-5b.jac"**  
   &emsp; &emsp; &emsp; deepseek-coder:  &emsp; **See the file "server-deepseek-coder.jac"**  
-  &emsp;   **Their results are collected in the folder "Submission_Part2_Different_LLMs"**
-
+  &emsp;   **Their results are collected in the folder "Submission_Part2_Different_LLMs"**  
+*( Btw, failed attempt: Hugging Faces' Models are not supported by our Jac language, but still keep the failed files "server_select_1.py" and "server-select-1.jac" )*
 
 
 ## Summary - Common GitHub Commands:
