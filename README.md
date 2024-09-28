@@ -8,3 +8,6 @@
    -> **See two files "Submission_Part1_Swagger-*.png"**
 + Submit a screenshot of the response from the API when you call the new walkers.  
    -> **See the file "Submission_Part1_response.png"**
+
+## Qilong's Submission Part2:
+   **See the folder "Submission_Part2_Ollama-bio-test**
