@@ -10,4 +10,4 @@
    -> **See the file "Submission_Part1_response.png"**
 
 ## Qilong's Submission Part2:
-   **See the folder "Submission_Part2_Ollama-bio-test**
++ **See the folder "Submission_Part2_Ollama-bio-test"**
