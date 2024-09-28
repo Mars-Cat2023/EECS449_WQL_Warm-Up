@@ -36,3 +36,5 @@
    git merge origin/main
    git push origin main
    ```
+## For Qilong - How to use this Repo?
+   Check this file: "EECS449 Warm-Up Commands.docx"
